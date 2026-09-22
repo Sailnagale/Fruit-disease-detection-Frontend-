@@ -19,6 +19,9 @@ export function Navbar() {
           <Link href="/dashboard" className="text-sm font-medium hover:text-primary transition-colors">
             Dashboard
           </Link>
+          <Link href="/factory" className="text-sm font-medium hover:text-primary transition-colors">
+            Factory
+          </Link>
         </nav>
       </div>
     </header>
