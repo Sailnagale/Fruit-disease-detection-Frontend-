@@ -89,7 +89,7 @@ export default function AnalyzePage() {
       // Simulate upload progress
       setTimeout(() => setProgress(40), 500);
       
-      const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://fruit-disease-detection-backend.onrender.com";
       const response = await fetch(`${API_URL}/predict`, {
         method: "POST",
         body: formData,
